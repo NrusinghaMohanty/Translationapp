@@ -1,0 +1,142 @@
+body{
+    background-color: black;
+    color: blanchedalmond;
+    max-width: 600px;
+    margin: auto;
+    
+}
+h1{
+    text-shadow: 3px 4px 6px red;
+}
+.container{
+      border:2px solid green;
+      box-shadow: -10px -5px 7px green;
+      text-align: center;
+      padding: 5rem;
+      
+
+}
+.first {
+    border:2px solid green;
+    box-shadow: -10px -5px 7px green;
+    /* display: inline-block; */
+    margin: 10px 10px;
+    font-size: 25px;
+    background-image: url(pic4.jpg);
+    background-size: cover;
+    margin:2rem;
+}
+ .second {
+    border:2px solid green;
+    /* display: inline-block; */
+    margin: 10px 10px;
+    font-size: 25px;
+    background-image: url(pic7.jpg);
+    background-size: cover;
+    box-shadow: -10px -5px 7px green;
+    margin:2rem;
+}
+ .third{
+    border:2px solid green;
+    /* display: inline-block; */
+    margin: 10px 10px;
+    font-size: 25px;
+    box-shadow: -10px -5px 7px green;
+    margin:2rem;
+    background-image: url(pic2.jpg);
+    background-position: center;
+ }
+
+.btn{
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: black;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+ 
+.one{
+    color:#e2ebeb;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.two{
+    color:#6fe26d;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+.three{
+    color:#00ffff;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+
+
+footer{
+    font-size: 47px;
+    color: blanchedalmond;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+
+  /* media queries */
+
+  @media (max-width:590px){
+    .first {
+        font-size:19px;
+    }
+    .second {
+        font-size:19px;
+    }
+    .third{
+        font-size:19px;
+    }
+}
+  @media (max-width:490px){
+    .first {
+        font-size:17px;
+        padding: 11px;
+    }
+    .second {
+        font-size:17px;
+        padding: 11px;
+    }
+    .third{
+        font-size:17px;
+        padding: 11px;
+    }
+    .container{
+        padding: 3rem;
+    }
+}
+  @media (max-width:415px){
+    .first {
+            font-size: 11px;
+    padding: 7px;
+    }
+    .second {
+            font-size: 11px;
+    padding: 7px;
+    }
+    .third{
+           font-size: 11px;
+    padding: 7px;
+    }
+    .container{
+        padding: 2rem;
+    }
+}
